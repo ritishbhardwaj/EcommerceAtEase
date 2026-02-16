@@ -2,6 +2,8 @@ import Link from 'next/link';
 import { fetchProducts } from '@/lib/api';
 import { ProductCard } from '@/components/ProductCard';
 
+export const dynamic = 'force-dynamic';
+
 export default async function HomePage() {
   const products = await fetchProducts();
   const featured = products.slice(0, 6);
