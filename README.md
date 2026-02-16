@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # NexShop — E-Commerce Website
 
 A responsive e-commerce site built with **Next.js** (frontend), **FastAPI** (backend), and **Tailwind CSS** for styling.
@@ -79,3 +80,7 @@ By default the Next.js rewrite sends `/api` to `http://localhost:8000`, so no en
 - **Backend** uses in-memory product and user data; replace with a database (e.g. SQLAlchemy, PostgreSQL) for production.
 
 Enjoy building!
+=======
+# EcommerceAtEase
+Easy way to ecommerce
+>>>>>>> bcb7445287e943b05200ea351b040d2f9556b5ba
